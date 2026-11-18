@@ -1,0 +1,279 @@
+{
+  "repo": {
+    "owner": "AishikTokdar",
+    "name": "Certification-Guide",
+    "branch": "main",
+    "url": "https://github.com/AishikTokdar/Certification-Guide"
+  },
+  "certifications": [
+    {
+      "id": "aif-c01",
+      "provider": "aws",
+      "code": "AIF-C01",
+      "title": "AWS Certified AI Practitioner",
+      "level": "Foundational",
+      "status": "Ready",
+      "description": "Foundational credential validating overall understanding of AI, machine learning, and generative AI concepts and associated AWS cloud services.",
+      "path": "aws/AIF-C01-ai-practitioner",
+      "specs": {
+        "duration": "85 minutes",
+        "questions": "65 questions (50 scored, 15 unscored)",
+        "passingScore": "700 / 1000",
+        "format": "Multiple choice and multiple response"
+      },
+      "domains": [
+        {
+          "name": "Domain 1: Fundamentals of AI and ML",
+          "weight": 20,
+          "file": "aws/AIF-C01-ai-practitioner/official-guide/domains/domain-1-fundamentals-of-ai-and-ml.md"
+        },
+        {
+          "name": "Domain 2: Fundamentals of Generative AI",
+          "weight": 24,
+          "file": "aws/AIF-C01-ai-practitioner/official-guide/domains/domain-2-fundamentals-of-genai.md"
+        },
+        {
+          "name": "Domain 3: Applications of Foundation Models",
+          "weight": 28,
+          "file": "aws/AIF-C01-ai-practitioner/official-guide/domains/domain-3-applications-of-foundation-models.md"
+        },
+        {
+          "name": "Domain 4: Guidelines for Responsible AI",
+          "weight": 14,
+          "file": "aws/AIF-C01-ai-practitioner/official-guide/domains/domain-4-guidelines-for-responsible-ai.md"
+        },
+        {
+          "name": "Domain 5: Security, Compliance, and Governance",
+          "weight": 14,
+          "file": "aws/AIF-C01-ai-practitioner/official-guide/domains/domain-5-security-compliance-and-governance.md"
+        }
+      ],
+      "pdfs": [
+        {
+          "filename": "00_AWS_AIF-C01_Official_Exam_Guide.pdf",
+          "pages": 26,
+          "size": "256 KB",
+          "role": "Step 0: Scope Boundary",
+          "purpose": "Official syllabus, task statements 1.1-5.2, in-scope service catalogue, and scoring criteria.",
+          "relPath": "aws/AIF-C01-ai-practitioner/pdfs/00_AWS_AIF-C01_Official_Exam_Guide.pdf"
+        },
+        {
+          "filename": "01_AWS_AIF-C01_Comprehensive_Study_Notes.pdf",
+          "pages": 26,
+          "size": "391 KB",
+          "role": "Step 1: Core Textbook",
+          "purpose": "Domain-by-domain narrative textbook covering ML hierarchy, Bedrock parameters, prompt engineering, and contrast tables.",
+          "relPath": "aws/AIF-C01-ai-practitioner/pdfs/01_AWS_AIF-C01_Comprehensive_Study_Notes.pdf"
+        },
+        {
+          "filename": "02_AWS_AIF-C01_Exam_Cheat_Sheet_and_Decision_Rules.pdf",
+          "pages": 14,
+          "size": "97 KB",
+          "role": "Step 2: Rapid Revision & Lookup",
+          "purpose": "Tabular revision sheet: service decision rules, evaluation metrics (Precision, Recall, F1, AUC-ROC), and exam traps.",
+          "relPath": "aws/AIF-C01-ai-practitioner/pdfs/02_AWS_AIF-C01_Exam_Cheat_Sheet_and_Decision_Rules.pdf"
+        },
+        {
+          "filename": "03_AWS_AIF-C01_Gap_Closer_and_Edge_Cases.pdf",
+          "pages": 7,
+          "size": "87 KB",
+          "role": "Step 3: Closing Omitted Topics",
+          "purpose": "ML pipeline mechanics (EDA, pre-processing, feature engineering, hyperparameters), cost levers (Budgets vs Cost Explorer), supporting data services (Glue DataBrew, EMR, Redshift, ElastiCache, EKS), and 16 targeted gap questions.",
+          "relPath": "aws/AIF-C01-ai-practitioner/pdfs/03_AWS_AIF-C01_Gap_Closer_and_Edge_Cases.pdf"
+        },
+        {
+          "filename": "04_AWS_AIF-C01_Practice_Question_Bank_200_Scenarios.pdf",
+          "pages": 73,
+          "size": "323 KB",
+          "role": "Step 4: Full Exam Simulation",
+          "purpose": "200 scenario-based questions mapped to exam task statements with full rationales for correct options and distractors.",
+          "relPath": "aws/AIF-C01-ai-practitioner/pdfs/04_AWS_AIF-C01_Practice_Question_Bank_200_Scenarios.pdf"
+        }
+      ],
+      "studyNotes": [
+        {
+          "title": "Complete Single-File Study Guide",
+          "file": "aws/AIF-C01-ai-practitioner/study-notes/study-guide.md"
+        },
+        {
+          "title": "AI and ML Terminology Glossary",
+          "file": "aws/AIF-C01-ai-practitioner/study-notes/glossary.md"
+        },
+        {
+          "title": "Amazon Bedrock Deep Dive",
+          "file": "aws/AIF-C01-ai-practitioner/study-notes/section/gen-ai/amazon-bedrock.md"
+        },
+        {
+          "title": "Prompt Engineering Techniques",
+          "file": "aws/AIF-C01-ai-practitioner/study-notes/section/gen-ai/prompt-engineering.md"
+        },
+        {
+          "title": "Amazon SageMaker Services",
+          "file": "aws/AIF-C01-ai-practitioner/study-notes/section/sagemaker/aws-sagemaker.md"
+        },
+        {
+          "title": "AWS Managed AI Services Summary",
+          "file": "aws/AIF-C01-ai-practitioner/study-notes/section/aws-managed-ai-services/aws-ai-services-summary.md"
+        },
+        {
+          "title": "Responsible AI Guidelines",
+          "file": "aws/AIF-C01-ai-practitioner/study-notes/section/ai-challenges-and-responsibilities/responsible-ai.md"
+        },
+        {
+          "title": "AI Security and Privacy",
+          "file": "aws/AIF-C01-ai-practitioner/study-notes/section/ai-challenges-and-responsibilities/security-and-privacy.md"
+        }
+      ],
+      "practiceTests": [
+        { "name": "Practice Test 1", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-01.md" },
+        { "name": "Practice Test 2", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-02.md" },
+        { "name": "Practice Test 3", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-03.md" },
+        { "name": "Practice Test 4", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-04.md" },
+        { "name": "Practice Test 5", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-05.md" },
+        { "name": "Practice Test 6", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-06.md" },
+        { "name": "Practice Test 7", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-07.md" },
+        { "name": "Tests Overview & Scoring", "file": "aws/AIF-C01-ai-practitioner/practice-exams/tests-overview.md" }
+      ],
+      "sources": [
+        {
+          "title": "Official AWS Exam Guide and Curriculum",
+          "url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01.html",
+          "type": "Primary Documentation"
+        },
+        {
+          "title": "Nirav Kanan Community Study Notes & Practice Tests",
+          "url": "https://github.com/kananinirav/aws-certified-ai-practitioner-study-notes/tree/master",
+          "type": "Open-Source Community Notes (MIT License)"
+        }
+      ]
+    },
+    {
+      "id": "ai-900",
+      "provider": "microsoft",
+      "code": "AI-900",
+      "title": "Microsoft Azure AI Fundamentals",
+      "level": "Foundational",
+      "status": "Upcoming",
+      "description": "Foundational knowledge of machine learning and artificial intelligence concepts and related Microsoft Azure services.",
+      "path": "microsoft/AI-900-azure-ai-fundamentals",
+      "specs": {
+        "duration": "45-60 minutes",
+        "questions": "40-50 questions",
+        "passingScore": "700 / 1000",
+        "format": "Multiple choice, drag-and-drop"
+      },
+      "domains": [
+        { "name": "Describe Artificial Intelligence workloads and considerations", "weight": 20 },
+        { "name": "Describe fundamental principles of machine learning on Azure", "weight": 25 },
+        { "name": "Describe features of computer vision workloads on Azure", "weight": 20 },
+        { "name": "Describe features of Natural Language Processing (NLP) workloads on Azure", "weight": 20 },
+        { "name": "Describe features of generative AI workloads on Azure", "weight": 15 }
+      ],
+      "pdfs": [],
+      "studyNotes": [],
+      "practiceTests": [],
+      "sources": [
+        {
+          "title": "Microsoft Learn AI-900 Study Guide",
+          "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900",
+          "type": "Official Documentation"
+        }
+      ]
+    },
+    {
+      "id": "az-900",
+      "provider": "microsoft",
+      "code": "AZ-900",
+      "title": "Microsoft Azure Fundamentals",
+      "level": "Foundational",
+      "status": "Upcoming",
+      "description": "Foundational level knowledge of cloud concepts and core Azure services, management tools, security, and governance.",
+      "path": "microsoft/AZ-900-azure-fundamentals",
+      "specs": {
+        "duration": "45-60 minutes",
+        "questions": "35-50 questions",
+        "passingScore": "700 / 1000",
+        "format": "Multiple choice, matching"
+      },
+      "domains": [
+        { "name": "Describe cloud concepts", "weight": 30 },
+        { "name": "Describe Azure architecture and services", "weight": 40 },
+        { "name": "Describe Azure management and governance", "weight": 30 }
+      ],
+      "pdfs": [],
+      "studyNotes": [],
+      "practiceTests": [],
+      "sources": [
+        {
+          "title": "Microsoft Learn AZ-900 Study Guide",
+          "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900",
+          "type": "Official Documentation"
+        }
+      ]
+    },
+    {
+      "id": "clf-c02",
+      "provider": "aws",
+      "code": "CLF-C02",
+      "title": "AWS Certified Cloud Practitioner",
+      "level": "Foundational",
+      "status": "Planned",
+      "description": "Overall understanding of the AWS Cloud platform, covering cloud concepts, security, technology, billing, and pricing.",
+      "path": "aws/CLF-C02-cloud-practitioner",
+      "specs": {
+        "duration": "90 minutes",
+        "questions": "65 questions",
+        "passingScore": "700 / 1000",
+        "format": "Multiple choice and multiple response"
+      },
+      "domains": [
+        { "name": "Cloud Concepts", "weight": 24 },
+        { "name": "Security and Compliance", "weight": 30 },
+        { "name": "Cloud Technology and Services", "weight": 34 },
+        { "name": "Billing, Pricing, and Support", "weight": 12 }
+      ],
+      "pdfs": [],
+      "studyNotes": [],
+      "practiceTests": [],
+      "sources": [
+        {
+          "title": "AWS Official Cloud Practitioner Exam Guide",
+          "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.html",
+          "type": "Official Documentation"
+        }
+      ]
+    },
+    {
+      "id": "saa-c03",
+      "provider": "aws",
+      "code": "SAA-C03",
+      "title": "AWS Certified Solutions Architect - Associate",
+      "level": "Associate",
+      "status": "Planned",
+      "description": "Knowledge of how to design resilient, high-performing, secure, and cost-optimized architectures on AWS.",
+      "path": "aws/SAA-C03-solutions-architect",
+      "specs": {
+        "duration": "130 minutes",
+        "questions": "65 questions",
+        "passingScore": "720 / 1000",
+        "format": "Multiple choice and multiple response"
+      },
+      "domains": [
+        { "name": "Design Secure Architectures", "weight": 30 },
+        { "name": "Design Resilient Architectures", "weight": 26 },
+        { "name": "Design High-Performing Architectures", "weight": 24 },
+        { "name": "Design Cost-Optimized Architectures", "weight": 20 }
+      ],
+      "pdfs": [],
+      "studyNotes": [],
+      "practiceTests": [],
+      "sources": [
+        {
+          "title": "AWS Official Solutions Architect Associate Exam Guide",
+          "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html",
+          "type": "Official Documentation"
+        }
+      ]
+    }
+  ]
+}

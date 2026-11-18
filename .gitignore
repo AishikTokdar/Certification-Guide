@@ -1,0 +1,14 @@
+# Build and distribution directories
+dist/
+build/
+site/aws/
+
+# Python cache and scratch
+__pycache__/
+*.pyc
+scratch/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
