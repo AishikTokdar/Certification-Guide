@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud & AI Certification Guide — Study Hub and Download Station</title>
+  <meta name="description" content="Technical certification guide, downloadable study PDFs, exam blueprints, and practice test banks for AWS and Microsoft credentials.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-badge">DOCS HUB</span>
+        <span class="brand-title">Certification Guide</span>
+      </div>
+      <div class="header-actions">
+        <div class="search-box">
+          <input type="text" id="search-input" class="search-input" placeholder="Search certifications...">
+          <span class="search-shortcut">/</span>
+        </div>
+        <button id="btn-copy-clone" class="btn-repo" title="Copy git clone command">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          <span id="clone-btn-text">git clone</span>
+        </button>
+        <a href="https://github.com/AishikTokdar/Certification-Guide" target="_blank" rel="noopener noreferrer" class="btn-repo">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-tag">TECHNICAL CERTIFICATION KNOWLEDGE BASE</div>
+      <h1 class="hero-title">Cloud and AI Certification Engineering Guides</h1>
+      <p class="hero-desc">
+        A centralized technical portal with sequenced study PDFs, official exam blueprints, decision rules, and full-length practice banks for AWS and Microsoft credentials.
+      </p>
+      <div class="stats-row" id="stats-row">
+        <!-- Dynamically rendered by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Area -->
+  <main class="container">
+    
+    <!-- Controls and Filters -->
+    <div class="controls-bar">
+      <div class="filter-group">
+        <button class="filter-btn active" data-filter="all">All Providers</button>
+        <button class="filter-btn" data-filter="aws">AWS</button>
+        <button class="filter-btn" data-filter="microsoft">Microsoft</button>
+      </div>
+      <div style="font-size: 13px; color: var(--text-muted); font-family: var(--font-mono);">
+        Press / to focus search
+      </div>
+    </div>
+
+    <!-- Certification Track Cards -->
+    <div class="cert-grid" id="cert-grid">
+      <!-- Dynamically rendered by app.js -->
+    </div>
+
+    <!-- Active Certification Detail View / Hub -->
+    <section class="detail-view" id="detail-view">
+      <!-- Dynamically rendered by app.js -->
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <span>Certification Guide Repository</span>
+        <span style="margin: 0 8px;">•</span>
+        <span>Curated for technical engineering preparation</span>
+      </div>
+      <div>
+        <a href="https://github.com/AishikTokdar/Certification-Guide/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" style="text-decoration: underline; text-underline-offset: 3px;">MIT License</a>
+        <span style="margin: 0 8px;">•</span>
+        <a href="https://github.com/AishikTokdar/Certification-Guide" target="_blank" rel="noopener noreferrer" style="text-decoration: underline; text-underline-offset: 3px;">Source Code</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
