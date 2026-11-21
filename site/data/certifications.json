@@ -125,14 +125,38 @@
         }
       ],
       "practiceTests": [
-        { "name": "Practice Test 1", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-01.md" },
-        { "name": "Practice Test 2", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-02.md" },
-        { "name": "Practice Test 3", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-03.md" },
-        { "name": "Practice Test 4", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-04.md" },
-        { "name": "Practice Test 5", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-05.md" },
-        { "name": "Practice Test 6", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-06.md" },
-        { "name": "Practice Test 7", "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-07.md" },
-        { "name": "Tests Overview & Scoring", "file": "aws/AIF-C01-ai-practitioner/practice-exams/tests-overview.md" }
+        {
+          "name": "Practice Test 1",
+          "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-01.md"
+        },
+        {
+          "name": "Practice Test 2",
+          "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-02.md"
+        },
+        {
+          "name": "Practice Test 3",
+          "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-03.md"
+        },
+        {
+          "name": "Practice Test 4",
+          "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-04.md"
+        },
+        {
+          "name": "Practice Test 5",
+          "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-05.md"
+        },
+        {
+          "name": "Practice Test 6",
+          "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-06.md"
+        },
+        {
+          "name": "Practice Test 7",
+          "file": "aws/AIF-C01-ai-practitioner/practice-exams/practice-test-07.md"
+        },
+        {
+          "name": "Tests Overview & Scoring",
+          "file": "aws/AIF-C01-ai-practitioner/practice-exams/tests-overview.md"
+        }
       ],
       "sources": [
         {
@@ -153,6 +177,173 @@
       ]
     },
     {
+      "id": "saa-c03",
+      "provider": "aws",
+      "code": "SAA-C03",
+      "title": "AWS Certified Solutions Architect - Associate",
+      "level": "Associate",
+      "status": "Ready",
+      "description": "Associate-level credential validating ability to design secure, resilient, high-performing, and cost-optimized architectures on AWS based on the Well-Architected Framework.",
+      "path": "aws/SAA-C03-solutions-architect",
+      "specs": {
+        "duration": "130 minutes",
+        "questions": "65 questions (50 scored, 15 unscored)",
+        "passingScore": "720 / 1000",
+        "format": "Multiple choice and multiple response"
+      },
+      "domains": [
+        {
+          "name": "Domain 1: Design Secure Architectures",
+          "weight": 30,
+          "file": "aws/SAA-C03-solutions-architect/official-guide/domains/domain-1-design-secure-architectures.md"
+        },
+        {
+          "name": "Domain 2: Design Resilient Architectures",
+          "weight": 26,
+          "file": "aws/SAA-C03-solutions-architect/official-guide/domains/domain-2-design-resilient-architectures.md"
+        },
+        {
+          "name": "Domain 3: Design High-Performing Architectures",
+          "weight": 24,
+          "file": "aws/SAA-C03-solutions-architect/official-guide/domains/domain-3-design-high-performing-architectures.md"
+        },
+        {
+          "name": "Domain 4: Design Cost-Optimized Architectures",
+          "weight": 20,
+          "file": "aws/SAA-C03-solutions-architect/official-guide/domains/domain-4-design-cost-optimized-architectures.md"
+        }
+      ],
+      "pdfs": [
+        {
+          "filename": "00_AWS_SAA-C03_Official_Exam_Guide.pdf",
+          "pages": 30,
+          "size": "288 KB",
+          "role": "Step 0: Scope Boundary",
+          "purpose": "Official AWS curriculum (v1.1), task statements 1.1-4.4, technologies list, and in-scope/out-of-scope service lists.",
+          "relPath": "aws/SAA-C03-solutions-architect/pdfs/00_AWS_SAA-C03_Official_Exam_Guide.pdf"
+        },
+        {
+          "filename": "01_AWS_SAA-C03_Comprehensive_Study_Notes.pdf",
+          "pages": 27,
+          "size": "987 KB",
+          "role": "Step 1: Core Textbook",
+          "purpose": "Domain-by-domain narrative exam notes, trigger tables, quick-fire contrast table, Feynman self-tests, and per-domain cheatsheets by Mohammed Abdullah Khan.",
+          "relPath": "aws/SAA-C03-solutions-architect/pdfs/01_AWS_SAA-C03_Comprehensive_Study_Notes.pdf"
+        },
+        {
+          "filename": "02_AWS_SAA-C03_Exam_Cheat_Sheet_and_Decision_Rules.pdf",
+          "pages": 7,
+          "size": "88 KB",
+          "role": "Step 2: Rapid Lookup & Traps",
+          "purpose": "Keyword decoder, 12 reference architecture shapes, numbers to memorize, Top 24 traps, v1.1 gap addendum, and ports table.",
+          "relPath": "aws/SAA-C03-solutions-architect/pdfs/02_AWS_SAA-C03_Exam_Cheat_Sheet_and_Decision_Rules.pdf"
+        },
+        {
+          "filename": "03_AWS_SAA-C03_Exam_Readiness_Guide_and_Gap_Audit.pdf",
+          "pages": 10,
+          "size": "72 KB",
+          "role": "Step 3: Coverage Audit & Labs",
+          "purpose": "Complete coverage matrix across all 179 syllabus bullets and 117 services mapped to Q1-Q515, scope calibration, 12 hands-on labs, and study schedules.",
+          "relPath": "aws/SAA-C03-solutions-architect/pdfs/03_AWS_SAA-C03_Exam_Readiness_Guide_and_Gap_Audit.pdf"
+        },
+        {
+          "filename": "04_AWS_SAA-C03_Practice_Question_Bank.pdf",
+          "pages": 246,
+          "size": "999 KB",
+          "role": "Step 4: 515-Question Bank",
+          "purpose": "515 original scenario questions (Volumes 1-7) including dedicated gap-closer sets (Vol 6 & 7) with full distractor rationales and answer keys.",
+          "relPath": "aws/SAA-C03-solutions-architect/pdfs/04_AWS_SAA-C03_Practice_Question_Bank.pdf"
+        },
+        {
+          "filename": "05_AWS_SAA-C03_Tutorials_Dojo_Study_Guide_and_Cheat_Sheets.pdf",
+          "pages": 315,
+          "size": "18.6 MB",
+          "role": "Step 5: Service Deep Dives",
+          "purpose": "Tutorials Dojo study guide by Jon Bonso with deep architectural breakdowns and extensive service-vs-service comparison cheat sheets.",
+          "relPath": "aws/SAA-C03-solutions-architect/pdfs/05_AWS_SAA-C03_Tutorials_Dojo_Study_Guide_and_Cheat_Sheets.pdf"
+        },
+        {
+          "filename": "06_AWS_SAA-C03_Notion_Visual_Notebook.pdf",
+          "pages": 297,
+          "size": "48.5 MB",
+          "role": "Step 6: Visual Course Notebook",
+          "purpose": "Comprehensive visual study notebook by Christian Greciano (Sections I-IV) covering diagrams, console configs, and whitepapers.",
+          "relPath": "aws/SAA-C03-solutions-architect/pdfs/06_AWS_SAA-C03_Notion_Visual_Notebook.pdf"
+        }
+      ],
+      "studyNotes": [
+        {
+          "title": "37 Topic Guides Study Index",
+          "file": "aws/SAA-C03-solutions-architect/study-notes/topic-guides/00-README.md"
+        },
+        {
+          "title": "VPC Architecture & Networking",
+          "file": "aws/SAA-C03-solutions-architect/study-notes/topic-guides/06-VPC.md"
+        },
+        {
+          "title": "Amazon S3 Storage & Security",
+          "file": "aws/SAA-C03-solutions-architect/study-notes/topic-guides/02-S3.md"
+        },
+        {
+          "title": "Amazon RDS & Aurora (Multi-AZ vs Replicas)",
+          "file": "aws/SAA-C03-solutions-architect/study-notes/topic-guides/09-RDS-Aurora.md"
+        },
+        {
+          "title": "SQS, SNS & Kinesis Decoupling",
+          "file": "aws/SAA-C03-solutions-architect/study-notes/topic-guides/17-SQS-SNS-Kinesis.md"
+        },
+        {
+          "title": "AWS IAM Policy Evaluation & SCPs",
+          "file": "aws/SAA-C03-solutions-architect/study-notes/topic-guides/01-IAM.md"
+        },
+        {
+          "title": "Gap-Fill Services (MGN, DMS, ACM, SSM)",
+          "file": "aws/SAA-C03-solutions-architect/study-notes/topic-guides/37-GapFill-Services.md"
+        },
+        {
+          "title": "Exam Traps & Key Patterns",
+          "file": "aws/SAA-C03-solutions-architect/study-notes/topic-guides/36-Exam-Traps-KeyPatterns.md"
+        }
+      ],
+      "practiceTests": [
+        {
+          "name": "515-Question Bank Volume Guide",
+          "file": "aws/SAA-C03-solutions-architect/practice-exams/README.md"
+        },
+        {
+          "name": "Readiness Matrix & Benchmarks",
+          "file": "aws/SAA-C03-solutions-architect/practice-exams/tests-overview.md"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official AWS Solutions Architect Associate Exam Guide",
+          "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html",
+          "type": "Primary Documentation"
+        },
+        {
+          "title": "Mohammed Abdullah Khan Complete Exam Notes",
+          "url": "https://www.mohammedabdullahkhan.com/resources",
+          "type": "Study Notes (SAA-C03 Complete Notes)"
+        },
+        {
+          "title": "RonitSachdev SAA-C03 Topic Guides (37 Guides)",
+          "url": "https://github.com/RonitSachdev/aws-saa-c03-guides/tree/main",
+          "type": "Open-Source Community Notes (CC BY 4.0)"
+        },
+        {
+          "title": "Christian Greciano SAA-C03 Notion Notebook",
+          "url": "https://psychedelic-cuticle-e74.notion.site/AWS-Solutions-Architect-Associate-SAA-C03-917631d1eb354a1f9bb355154879358d",
+          "type": "Visual Course Notebook"
+        },
+        {
+          "title": "Tutorials Dojo Study Guide & Cheat Sheets (Jon Bonso)",
+          "url": "https://portal.tutorialsdojo.com/",
+          "type": "Comprehensive Reference Book"
+        }
+      ]
+    },
+    {
       "id": "ai-900",
       "provider": "microsoft",
       "code": "AI-900",
@@ -168,11 +359,26 @@
         "format": "Multiple choice, drag-and-drop"
       },
       "domains": [
-        { "name": "Describe Artificial Intelligence workloads and considerations", "weight": 20 },
-        { "name": "Describe fundamental principles of machine learning on Azure", "weight": 25 },
-        { "name": "Describe features of computer vision workloads on Azure", "weight": 20 },
-        { "name": "Describe features of Natural Language Processing (NLP) workloads on Azure", "weight": 20 },
-        { "name": "Describe features of generative AI workloads on Azure", "weight": 15 }
+        {
+          "name": "Describe Artificial Intelligence workloads and considerations",
+          "weight": 20
+        },
+        {
+          "name": "Describe fundamental principles of machine learning on Azure",
+          "weight": 25
+        },
+        {
+          "name": "Describe features of computer vision workloads on Azure",
+          "weight": 20
+        },
+        {
+          "name": "Describe features of Natural Language Processing (NLP) workloads on Azure",
+          "weight": 20
+        },
+        {
+          "name": "Describe features of generative AI workloads on Azure",
+          "weight": 15
+        }
       ],
       "pdfs": [],
       "studyNotes": [],
@@ -201,9 +407,18 @@
         "format": "Multiple choice, matching"
       },
       "domains": [
-        { "name": "Describe cloud concepts", "weight": 30 },
-        { "name": "Describe Azure architecture and services", "weight": 40 },
-        { "name": "Describe Azure management and governance", "weight": 30 }
+        {
+          "name": "Describe cloud concepts",
+          "weight": 30
+        },
+        {
+          "name": "Describe Azure architecture and services",
+          "weight": 40
+        },
+        {
+          "name": "Describe Azure management and governance",
+          "weight": 30
+        }
       ],
       "pdfs": [],
       "studyNotes": [],
@@ -232,10 +447,22 @@
         "format": "Multiple choice and multiple response"
       },
       "domains": [
-        { "name": "Cloud Concepts", "weight": 24 },
-        { "name": "Security and Compliance", "weight": 30 },
-        { "name": "Cloud Technology and Services", "weight": 34 },
-        { "name": "Billing, Pricing, and Support", "weight": 12 }
+        {
+          "name": "Cloud Concepts",
+          "weight": 24
+        },
+        {
+          "name": "Security and Compliance",
+          "weight": 30
+        },
+        {
+          "name": "Cloud Technology and Services",
+          "weight": 34
+        },
+        {
+          "name": "Billing, Pricing, and Support",
+          "weight": 12
+        }
       ],
       "pdfs": [],
       "studyNotes": [],
@@ -244,38 +471,6 @@
         {
           "title": "AWS Official Cloud Practitioner Exam Guide",
           "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.html",
-          "type": "Official Documentation"
-        }
-      ]
-    },
-    {
-      "id": "saa-c03",
-      "provider": "aws",
-      "code": "SAA-C03",
-      "title": "AWS Certified Solutions Architect - Associate",
-      "level": "Associate",
-      "status": "Planned",
-      "description": "Knowledge of how to design resilient, high-performing, secure, and cost-optimized architectures on AWS.",
-      "path": "aws/SAA-C03-solutions-architect",
-      "specs": {
-        "duration": "130 minutes",
-        "questions": "65 questions",
-        "passingScore": "720 / 1000",
-        "format": "Multiple choice and multiple response"
-      },
-      "domains": [
-        { "name": "Design Secure Architectures", "weight": 30 },
-        { "name": "Design Resilient Architectures", "weight": 26 },
-        { "name": "Design High-Performing Architectures", "weight": 24 },
-        { "name": "Design Cost-Optimized Architectures", "weight": 20 }
-      ],
-      "pdfs": [],
-      "studyNotes": [],
-      "practiceTests": [],
-      "sources": [
-        {
-          "title": "AWS Official Solutions Architect Associate Exam Guide",
-          "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html",
           "type": "Official Documentation"
         }
       ]

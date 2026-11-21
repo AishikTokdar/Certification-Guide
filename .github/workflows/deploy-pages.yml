@@ -32,6 +32,8 @@ jobs:
           # Copy PDFs preserving the repository directory hierarchy
           mkdir -p dist/aws/AIF-C01-ai-practitioner/pdfs
           cp -r aws/AIF-C01-ai-practitioner/pdfs/* dist/aws/AIF-C01-ai-practitioner/pdfs/
+          mkdir -p dist/aws/SAA-C03-solutions-architect/pdfs
+          cp -r aws/SAA-C03-solutions-architect/pdfs/* dist/aws/SAA-C03-solutions-architect/pdfs/
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5

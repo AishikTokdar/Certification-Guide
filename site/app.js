@@ -72,8 +72,8 @@ function renderStats() {
       <div class="stat-label">Curated PDF Documents</div>
     </div>
     <div class="stat-card">
-      <div class="stat-value">${totalTests} Sets</div>
-      <div class="stat-label">Practice Exams</div>
+      <div class="stat-value">${totalTests}</div>
+      <div class="stat-label">Practice Guides & Tests</div>
     </div>
   `;
 }
